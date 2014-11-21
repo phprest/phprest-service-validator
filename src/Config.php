@@ -10,7 +10,7 @@ class Config implements Configurable
     public $annotationMapping = true;
 
     /**
-     * @param bool $annotationMapping
+     * @param boolean $annotationMapping
      */
     public function __construct($annotationMapping = true)
     {
