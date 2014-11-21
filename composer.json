@@ -1,0 +1,31 @@
+{
+    "name": "phprest/phrest-service-validator",
+    "description": "Phrest Validator Service.",
+    "keywords": ["micro", "framework", "rest", "restful", "api", "service", "validator"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Adam Balogh",
+            "email": "baloghbh@gmail.com",
+            "homepage": "http://code-chronicle.blogspot.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/phprest/phrest"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "phprest/phrest": "dev-master",
+        "symfony/validator": "~2.5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phrest\\Service\\Validator\\": "src"
+        }
+    }
+}
