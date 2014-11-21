@@ -4,7 +4,7 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Component\Validator\ConstraintViolationListInterface;
 use Symfony\Component\Validator\ConstraintViolationInterface;
 
-trait Validator
+trait Util
 {
     /**
      * @param mixed $value
