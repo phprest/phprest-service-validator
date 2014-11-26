@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de22106844bf8e2b538c7913c3ed7c10",
+    "hash": "917e5338cc9ee526c14b8fa36b9b9bac",
     "packages": [
         {
             "name": "alexbilbie/proton",
@@ -661,16 +661,16 @@
         },
         {
             "name": "nikic/fast-route",
-            "version": "v0.2.0",
+            "version": "v0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "7dc9a43cb856debc22fe158a1144018e16f7a637"
+                "reference": "57a2aec2d597f166c4139e44953bc42b7eaf9e54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/7dc9a43cb856debc22fe158a1144018e16f7a637",
-                "reference": "7dc9a43cb856debc22fe158a1144018e16f7a637",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/57a2aec2d597f166c4139e44953bc42b7eaf9e54",
+                "reference": "57a2aec2d597f166c4139e44953bc42b7eaf9e54",
                 "shasum": ""
             },
             "require": {
@@ -700,7 +700,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-05-17 11:33:04"
+            "time": "2014-11-26 18:36:25"
         },
         {
             "name": "orno/di",
@@ -947,16 +947,16 @@
         },
         {
             "name": "phprest/phrest",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phprest/phrest.git",
-                "reference": "8fa48bdf6b8a30c3f8cb38660559d25e2b61deaa"
+                "reference": "0178025ea3847e04008223d097ad36caa429d1ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phprest/phrest/zipball/8fa48bdf6b8a30c3f8cb38660559d25e2b61deaa",
-                "reference": "8fa48bdf6b8a30c3f8cb38660559d25e2b61deaa",
+                "url": "https://api.github.com/repos/phprest/phrest/zipball/0178025ea3847e04008223d097ad36caa429d1ad",
+                "reference": "0178025ea3847e04008223d097ad36caa429d1ad",
                 "shasum": ""
             },
             "require": {
@@ -966,9 +966,9 @@
                 "willdurand/negotiation": "~1.3.4"
             },
             "suggest": {
-                "netresearch/jsonmapper": "For mapping Json to Class.",
-                "rhumsaa/uuid": "For generating UUIDs.",
-                "symfony/validator": "For validating Entities.",
+                "phprest/phrest-service-jsonmapper": "For mapping Json Object to Class.",
+                "phprest/phrest-service-rdbms": "For managins Relational Databases.",
+                "phprest/phrest-service-validator": "For validating Entities.",
                 "zircote/swagger-php": "For creating your Api documentation."
             },
             "type": "library",
@@ -977,6 +977,7 @@
                     "Phrest\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -993,14 +994,12 @@
                 "api",
                 "framework",
                 "micro",
+                "phprest",
+                "phrest",
                 "rest",
                 "restful"
             ],
-            "support": {
-                "source": "https://github.com/phprest/phrest/tree/master",
-                "issues": "https://github.com/phprest/phrest/issues"
-            },
-            "time": "2014-11-20 19:19:21"
+            "time": "2014-11-26 22:39:32"
         },
         {
             "name": "psr/log",
@@ -1568,9 +1567,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "phprest/phrest": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "platform": {
         "php": ">=5.4.0"
