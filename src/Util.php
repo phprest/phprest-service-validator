@@ -34,7 +34,7 @@ trait Util
 
         if (is_null($formatter)) {
             $formatter = function(ConstraintViolationInterface $constraintViolation) {
-                return $constraintViolation->getPropertyPath() . ' : ' . $constraintViolation->getMessage();
+                return new Entity\Error($constraintViolation->getPropertyPath(), $constraintViolation->getMessage());
             };
         }
 
