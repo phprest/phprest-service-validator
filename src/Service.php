@@ -15,9 +15,11 @@ class Service implements Serviceable
      */
     public function register(Container $container, Configurable $config)
     {
+        if ( ! $config instanceof Config) {
+            throw new \InvalidArgumentException('Wrong Config object');
+        }
+        
         $validator = Validation::createValidatorBuilder();
-
-        /** @var Config $config */
 
         if ($config->annotationMapping) {
             $validator->enableAnnotationMapping();
