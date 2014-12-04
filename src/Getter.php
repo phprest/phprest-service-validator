@@ -5,7 +5,7 @@ trait Getter
     /**
      * @return \Symfony\Component\Validator\ValidatorInterface
      */
-    public function serviceValidator()
+    protected function serviceValidator()
     {
         return $this->getContainer()->get(Config::getServiceName());
     }
