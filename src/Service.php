@@ -1,7 +1,7 @@
-<?php namespace Phrest\Service\Validator;
+<?php namespace Phprest\Service\Validator;
 
-use Phrest\Service\Serviceable;
-use Phrest\Service\Configurable;
+use Phprest\Service\Serviceable;
+use Phprest\Service\Configurable;
 use Orno\Di\Container;
 use Symfony\Component\Validator\Validation;
 

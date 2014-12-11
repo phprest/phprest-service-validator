@@ -1,4 +1,4 @@
-<?php namespace Phrest\Service\Validator;
+<?php namespace Phprest\Service\Validator;
 
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Component\Validator\ConstraintViolationListInterface;

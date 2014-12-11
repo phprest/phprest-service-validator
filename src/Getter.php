@@ -1,4 +1,4 @@
-<?php namespace Phrest\Service\Validator;
+<?php namespace Phprest\Service\Validator;
 
 trait Getter
 {

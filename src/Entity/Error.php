@@ -1,4 +1,4 @@
-<?php namespace Phrest\Service\Validator\Entity;
+<?php namespace Phprest\Service\Validator\Entity;
 
 use JMS\Serializer\Annotation as Serializer;
 

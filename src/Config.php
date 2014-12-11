@@ -1,6 +1,6 @@
-<?php namespace Phrest\Service\Validator;
+<?php namespace Phprest\Service\Validator;
 
-use Phrest\Service\Configurable;
+use Phprest\Service\Configurable;
 
 class Config implements Configurable
 {

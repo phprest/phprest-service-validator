@@ -1,7 +1,7 @@
 {
-    "name": "phprest/phrest-service-validator",
-    "description": "Phrest Validator Service.",
-    "keywords": ["micro", "framework", "rest", "restful", "api", "service", "validator"],
+    "name": "phprest/phprest-service-validator",
+    "description": "Phprest Validator Service.",
+    "keywords": ["framework", "rest", "restful", "api", "service", "validator"],
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -14,12 +14,12 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "phprest/phrest": "dev-master",
+        "phprest/phprest": "dev-master",
         "symfony/validator": "~2.5.6"
     },
     "autoload": {
         "psr-4": {
-            "Phrest\\Service\\Validator\\": "src"
+            "Phprest\\Service\\Validator\\": "src"
         }
     }
 }
