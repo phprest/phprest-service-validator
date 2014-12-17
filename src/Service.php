@@ -25,6 +25,6 @@ class Service implements Serviceable
             $validator->enableAnnotationMapping();
         }
 
-        $container->singleton($config->getServiceName(), $validator->getValidator());
+        $container->add($config->getServiceName(), $validator->getValidator());
     }
 }
