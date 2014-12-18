@@ -24,6 +24,10 @@ page to choose a stable version to use, avoid the `@stable` meta constraint.
 
 # Usage
 
+## Configuration
+
+For the configuration you should check the [Config](src/Config.php) class.
+
 ## Registration
 
 ```php
@@ -34,10 +38,6 @@ use Phprest\Service\Validator;
 $app->registerService(new Validator\Service(), new Validator\Config());
 # ...
 ```
-
-## Configuration
-
-For the configuration you should check the [Config](src/Config.php) class.
 
 ## Reaching from a Controller
 
