@@ -41,7 +41,7 @@ For the configuration you should check the [Config](src/Config.php) class.
 
 ## Reaching from a Controller
 
-To reach your Service from a Controller you should use the Service's Getter Trait.
+To reach your Service from a Controller you should use the Service's [Getter](src/Getter.php) Trait.
 
 ```php
 <?php namespace App\Module\Controller;
@@ -63,7 +63,7 @@ class Index extends \Phprest\Util\Controller
 
 Most of the Services in Phprest provides some utility mechanism (helper functions).
 
-For the utilities you should check the [Config](src/Util.php) class.
+For the utilities you should check the [Util](src/Util.php) class.
 
 
 
