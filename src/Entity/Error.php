@@ -28,4 +28,12 @@ class Error
         $this->field = $field;
         $this->message = $message;
     }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->field . ':' . $this->message;
+    }
 }
