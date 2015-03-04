@@ -47,7 +47,7 @@ trait Util
     }
 
     /**
-     * @return \Orno\Di\Container
+     * @return \League\Container\Container
      */
     abstract protected function getContainer();
 }
